@@ -1,7 +1,7 @@
 <?php
 class SimpleClass
 {
-    public $var = 'Hello:)';
+    public $var = 'Hello!';
 
     public function displayVar() {
         echo $this->var;
