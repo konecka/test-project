@@ -8,6 +8,7 @@ class User {
 
  	public $name;
  	public $patronymic;
+ 	public $status;
 
 	public function __construct($id, $name, $login, $password) {
 		$this->login    = $login;
@@ -15,6 +16,7 @@ class User {
 		$this->name     = $name;
 		$this->id       = $id;
 		$this->patronymic = $patronymic;
+		$this->status = $status;
 	}
 
 	public function getLogin() {
